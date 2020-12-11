@@ -1,0 +1,54 @@
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600|Roboto:300&display=swap');
+
+.navbar-brand {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Montserrat", sans-serif;
+    color: #022c70;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #022c70;
+}
+
+/* NAVBAR */
+.navbar-inverse {
+    background-color: #022c70;
+    border-color: #fff;
+}
+
+.navbar-logo {
+    width: 50px;
+}
+
+
+/* SIDEBAR */
+.section.sidebar {
+    background-color: #E0E0E0;
+}
+
+@media screen and (min-width: 767px) {
+    #dashboard-container {
+    padding-left: 310px !important;
+    }
+
+.sidebar {
+    width: 310px !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .chart_shim {
+    overflow-y: scroll;
+}
+    }
+
+.sidebar {
+    width: 310px !important;
+    }
+}
