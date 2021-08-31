@@ -37,13 +37,6 @@ library(dygraphs)
 
 #knitr::opts_chunk$set(echo = FALSE)
 
-## establish the connection
-
-# authenticate with Google cloud with your secret API key- opens browser prompt. It will be cached across R sessions locally
-#bigrquery::bq_auth("62522979213-iu6juif1aqds5bsikqc4q904h48l3jhs.apps.googleusercontent.com")
-
-# preferrably authenticate with the path to your service account token file. This is needed for automated use of Big Query.
-#bigrquery::bq_auth("/json/service_account.json")
 
 # establish the connection to the big query openaq data collection
 con_sales <- dbConnect(
@@ -65,7 +58,7 @@ con_weather <- dbConnect(
 #  bigrquery::bigquery(),
 #  project = "bigquery-public-data",
 #  dataset = "covid19_usafacts",
-#  billing = "neon-297716"  
+#  billing = "xxxxxx"  
 #)
 
 ######## Data Tabels ##############
